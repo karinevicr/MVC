@@ -1,7 +1,7 @@
 # Readme
 
 # Arquitetura MVC - Karine Victoria
-- Nome do Projeto: Abandono zerp
+- Nome do Projeto: Abandono zero
 - Descrição: [Insira uma breve descrição do seu projeto]
 - Arquitetura: MVC (Model-View-Controller)
 - Ferramenta de Diagramação: draw.io
@@ -12,8 +12,16 @@
 
 ### Controladores (Controllers):
 - Controlador: Pesquisador
-- Descreva as ações (methods) de cada controlador e seus parâmetros de entrada e saída.
-- Explique como os controladores interagem com os modelos e views.
+
+ #### __Responsabilidades:__
+1. Recebe as informações contidas nos formulários de cadastro
+2. Recebe os dados coletados no formulario
+3. Valida e adiciona as respostas no banco de dados
+
+#### __Métodos__
+
+Registro: Nome, email, senha, cep, localização
+
 
 ### Views (Views):
 - Texto: Texto explicativo sobre cada parte do projeto.
