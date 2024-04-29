@@ -7,8 +7,20 @@
 - Ferramenta de Diagramação: draw.io
 
 ### Modelos (Models):
-- Descreva as entidades do seu projeto e seus atributos.
-- Explique as relações entre as entidades.
+
+ #### __Entidades:__
+
+ __Usuário:__
+ Atributos: ID, nome, email, senha, localização, idade e se tem, teve, deseja ter ou não possui interesse em ter um cachorro
+
+__Formulario:__
+Atributos: Id, respostas do formulário, nome do usuário
+
+ __Relações:__
+ - Um usuario pode ter mais de um cachorro
+ - Um cachorro pode ter apenas um usuario
+ - Um usuario pode responder apenas um formulário
+ 
 
 ### Controladores (Controllers):
 - Controlador: Pesquisador
@@ -20,7 +32,7 @@
 
 #### __Métodos__
 
-Registro: Nome, email, senha, cep, localização
+Registro: Nome, email, senha, cep e localização
 
 
 ### Views (Views):
