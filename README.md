@@ -2,7 +2,7 @@
 
 # Arquitetura MVC - Karine Victoria
 - Nome do Projeto: Abandono zero
-- Descrição: Esse MVC é a idealização de site com um questionário para pessoas que tem, tiveram, terão ou não se interessam por cachorros. Os dados coletados serão usados pelo INSPA para entender  o abandono de cachorros e tomar medidas para mitigar essa questão.
+- Descrição: Esse MVC é a idealização de site com um questionário para pessoas que tem, tiveram, terão ou não se interessam por cachorros. Os dados coletados serão usados pelo INSPA para compreender o abandono de cachorros e tomar medidas para mitigar essa questão.
 - Arquitetura: MVC (Model-View-Controller)
 - Ferramenta de Diagramação: draw.io
 
@@ -45,10 +45,13 @@ Registro: Nome, email, senha, cep e localização
 - Formulário: Onde vai ser coletados os dados.
 
 ### Infraestrutura:
+__Banco de dados:__ Ultizado para relacionar e armazenar dados dos usuarios e cachorros 
+__APIs externas:__ Ultizado para ter dados sobre raças de cachorros e dados sobre abandono animal
+__Integração com MVC:__ 
 
-- Descreva os componentes de infraestrutura do seu projeto, como bancos de dados, APIs externas e outras dependências.
-- Explique como a infraestrutura se integra à arquitetura MVC.
-
+1. O controlador faz interação com os modelos para acessar e manipular os dados coletados.
+2. As views são renderizadas pelo controlador e mostram as informações aos usuários.
+3. A infraestrutura, como o banco de dados e as APIs externas, é acessada pelos modelos e o controlador quando é necessário.
 
 ### Justifique as escolhas feitas e como elas impactam o projeto.
 #### Implicações da Arquitetura:
