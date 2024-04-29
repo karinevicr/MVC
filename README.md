@@ -36,7 +36,6 @@ Atributos: ID, respostas do formulário, nome do usuário
 
 Registro: Nome, email, senha, cep e localização
 
-
 ### Views (Views):
 - Texto: Texto explicativo sobre cada parte do projeto.
 - Navbar: Melhora a experiência do usuario, deixando links a facil acesso.
@@ -53,8 +52,8 @@ __Integração com MVC:__
 2. As views são renderizadas pelo controlador e mostram as informações aos usuários.
 3. A infraestrutura, como o banco de dados e as APIs externas, é acessada pelos modelos e o controlador quando é necessário.
 
-### Justifique as escolhas feitas e como elas impactam o projeto.
-#### Implicações da Arquitetura:
-Descreva as implicações da arquitetura em termos de escalabilidade, manutenção, testabilidade e outros aspectos importantes.
+### Justificações e implicações da Arquitetura:
+- A Aquitetura MVC ajuda a organizar as ideias, deixando assim, o código mais organizado
+- Com o Aquittura, o projeto fica bem estruturrado para coletar os dados necessarios 
 
 
