@@ -2,19 +2,21 @@
 
 # Arquitetura MVC - Karine Victoria
 - Nome do Projeto: Abandono zero
-- Descrição: [Insira uma breve descrição do seu projeto]
+- Descrição: Esse MVC é a idealização de site com um questionário para pessoas que tem, tiveram, terão ou não se interessam por cachorros. Os dados coletados serão usados pelo INSPA para entender  o abandono de cachorros e tomar medidas para mitigar essa questão.
 - Arquitetura: MVC (Model-View-Controller)
 - Ferramenta de Diagramação: draw.io
 
 ### Modelos (Models):
 
- #### __Entidades:__
+ ####  __Entidades:__
 
  __Usuário:__
+ 
  Atributos: ID, nome, email, senha, localização, idade e se tem, teve, deseja ter ou não possui interesse em ter um cachorro
 
 __Formulario:__
-Atributos: Id, respostas do formulário, nome do usuário
+
+Atributos: ID, respostas do formulário, nome do usuário
 
  __Relações:__
  - Um usuario pode ter mais de um cachorro
